@@ -1,37 +1,59 @@
-# 🧠 IMC Prosperity 2025
+# IMC Trading Prosperity 2025
 
-This repository contains my work for the IMC Prosperity Trading Competition 2025.  
-It includes research, strategy logic, signal generation, backtesting scripts, and a real-time PnL dashboard.
-
----
-
-## 📊 Dashboard Preview
-
-Soon to be updated currently in Dashboard folder
+Welcome to the IMC Trading Prosperity 2025 repository! This project aims to [briefly state the purpose of the repository, e.g., "analyze and visualize trading results for the IMC Prosperity competition 2025."]
 
 ---
 
-## 📁 Repository Structure
+## 📊 Prosperity Dashboard
 
+[![Prosperity Dashboard](https://github.com/Shivam-26102003/IMC_Trading_Prosperity_2025/raw/main/Desktop/IMC%20Repo/Prosperity%20dashboard/Prosperity%20dashboard.jpg)](https://github.com/Shivam-26102003/IMC_Trading_Prosperity_2025/blob/main/Desktop/IMC%20Repo/Prosperity%20dashboard/Prosperity%20dashboard.jpg)
 
----
-
-## 🚀 Work in Progress Complete work is to be updated soon
-
-The repository is under active development. Key components being worked on:
-- [ ] Order Book Imbalance Strategy
-- [ ] Signal Smoothing and Filtering
-- [ ] Backtesting with Latency and Slippage Modeling
-- [ ] Dashboard with Real-Time Metrics
+<sub>This is the dashboard of result after the submission of round 2.</sub>
 
 ---
 
-## 📌 About the Competition
+## 🚀 Getting Started
 
-The IMC Prosperity Trading Competition challenges participants to create algorithmic trading strategies that optimize profit and manage risk under realistic market conditions.
+1. **Clone this repo**
+   ```bash
+   git clone https://github.com/Shivam-26102003/IMC_Trading_Prosperity_2025.git
+   ```
+2. **Navigate to the project directory**
+   ```bash
+   cd IMC_Trading_Prosperity_2025
+   ```
+3. **[Add any setup instructions, dependencies, or requirements here]**
 
 ---
 
+## 📁 Project Structure
 
+- `Desktop/IMC Repo/Prosperity dashboard/`  
+  Contains the Prosperity Dashboard image and related files.
 
+- `[Add more directories or files as needed with brief descriptions]`
 
+---
+
+## 📝 Usage
+
+[Explain how users can use or run your project. Provide example commands, screenshots, or notes here.]
+
+---
+
+## 🙌 Credits
+
+- Developed by [Shivam-26102003](https://github.com/Shivam-26102003)
+- [List contributors, mentors, or acknowledge resources if any.]
+
+---
+
+## 📬 Contact
+
+- [LinkedIn](#)
+- [Email](#)
+- [Any other preferred contact or social links]
+
+---
+
+⭐️ Star this repo if you found it useful!
