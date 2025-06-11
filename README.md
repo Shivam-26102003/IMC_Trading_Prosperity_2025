@@ -26,6 +26,42 @@ We collaborated on all aspects of strategy development, implementation, and opti
 The goal of this competition was to create an automated trading strategy capable of competing in a real-time, high-speed, and highly dynamic trading environment. We leveraged both quantitative analysis and strategic decision-making under pressure to build robust, fast, and adaptive trading bots.
 
 ---
+## 🌐 Problem Statement
+
+The competition simulated a virtual exchange with multiple fictional assets, where participants had to design automated trading algorithms to maximize profit while respecting position limits and market rules.
+
+In Round 1, the exchange introduced the following products:
+- **Rainforest Resin**: a stable product with minimal price volatility.
+- **Kelp**: a product showing oscillating price behavior.
+- **Squid Ink**: a highly volatile product exhibiting mean-reversion tendencies.
+
+The goal was to design algorithms capable of efficiently trading these products by analyzing market data, managing positions, and executing profitable orders.
+
+---
+
+## 🧠 Our Approach
+
+We focused our initial efforts on designing a robust algorithm for **Rainforest Resin**, which provided a good opportunity to test and develop market-making strategies due to its price stability.
+
+### Strategy Highlights
+
+- **Enhanced Market-Making for Rainforest Resin**
+  - Dynamic fair price estimation.
+  - Market making within a configurable spread around the fair price.
+  - Aggressive order taking when favorable opportunities arise (arbitrage entries).
+  - Position management via soft limits to prevent over-exposure.
+  - Clearing logic to offload excess inventory when positions exceeded thresholds.
+  - Fully parameterized logic to control trading behavior:
+    - `take_width`: aggressiveness for taking orders.
+    - `clear_width`: aggressiveness for clearing inventory.
+    - `default_edge`: spread used for quoting.
+    - `soft_position_limit`: threshold for adjusting quoting behavior.
+
+- **PnL Logging & Analytics**
+  - Position tracking and proper PnL logging for monitoring performance.
+ 
+More to be updated soon.... about further rounds
+---
 
 ## 🧠 Strategy Highlights
 
